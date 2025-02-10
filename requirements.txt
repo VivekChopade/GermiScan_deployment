@@ -2,3 +2,7 @@ Flask
 Gunicorn
 requests
 Flask-cors
+ultralytics
+numpy
+opencv-python
+torchvision
