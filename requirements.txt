@@ -3,3 +3,4 @@ Gunicorn
 requests
 Flask-cors
 opencv-python
+ultralytics
