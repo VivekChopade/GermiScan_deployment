@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Germi Scan</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="../static/imgs/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="../static/imgs/logo.png" alt="">
+        </a>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button id="searchButton"><i class="fas fa-search"></i></button>
+            <!-- Google Search Results Container -->
+            <div id="googleSearchResults"></div>
+        </div>
+        <nav class="navbar">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </nav>
+        
+
+    </header>
+
+    <section class="home">
+        <div class="content">
+            <h3>Innovation In Agriculture</h3>
+            <p>Optimize your farming with accurate germination rate predictions. Our technology helps you make data-driven decisions, ensuring better yields and sustainable growth.</p>
+            <button class="btn" onclick="runCommand('realtime')">Start Real-Time Scanning</button>
+            <button class="btn" onclick="runCommand('video')">Run on Video</button>
+            <button class="btn" onclick="runCommand('image')">Run on Image</button>
+
+
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/agriculture_innovation/?hl=en" target="_blank" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="/">home</a>
+            <a href="/about">about</a>
+            <a href="/contact">contact</a>
+        </div>
+    </section>
+
+
+    <script src="../static/script.js"></script>
+</body>
+
+</html>
